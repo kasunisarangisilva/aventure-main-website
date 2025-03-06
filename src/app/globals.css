@@ -19,6 +19,27 @@
   }
 }
 
+.bg-square-pattern {
+  background-image: linear-gradient(
+      45deg,
+      #cd3030 25%,
+      transparent 25%,
+      transparent 75%,
+      #cd3030 75%,
+      #cd3030 100%
+    ),
+    linear-gradient(
+      45deg,
+      #cd3030 25%,
+      transparent 25%,
+      transparent 75%,
+      #cd3030 75%,
+      #cd3030 100%
+    );
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
